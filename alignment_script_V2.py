@@ -26,7 +26,7 @@ from PIL import Image, ImageSequence
 
 '''Specify parent directory. This should be a folder that will house all z-plane directories'''
 
-parent_dir = '/Users/katherinedelgado/Desktop/Mi1_Thaps/'
+parent_dir = '/Users/katherinedelgado/Desktop/Mi1_Thaps/' #Change to your parent directory
 
 '''Specify CSV file name. This CSV should be in parent directory'''
 
@@ -36,7 +36,7 @@ data,header = ResponseTools_v2.read_csv_file(csv_filename)
 '''Iterate over each line of the CSV where one line contains information from one image or job in the lif file'''
 for d in data:
     '''Each bracketed number corresponds to an index (column) of the CSV. 
-        If you make changes to the CSV structure change accordingly.'''
+        If you make changes to the CSV structure change accordingly.''' #Check to make sure your csv columns match the indicies below
     sample = d[0]
     lif_name = d[1]
     job_index = d[2]
@@ -50,6 +50,8 @@ for d in data:
     save_avg = d[10]
     
     print(sample)
+    
+    #Check all filepaths below to make sure they match yours
     
     '''Parse lif file'''
     lifFileName = parent_dir+'/lif_files/'+lif_name+'.lif'
