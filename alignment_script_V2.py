@@ -3,7 +3,7 @@
 """
 Created on Fri Apr 29 12:08:46 2022
 
-@author: katherinedelgado
+@author: katherinedelgado and Erin Barnhart
 """
 
 #!/usr/bin/env python3
