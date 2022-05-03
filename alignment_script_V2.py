@@ -6,13 +6,6 @@ Created on Fri Apr 29 12:08:46 2022
 @author: katherinedelgado and Erin Barnhart
 """
 
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Apr  8 12:39:08 2022
-
-@author: katherinedelgado
-"""
 import csv
 import alignment 
 import numpy as np
